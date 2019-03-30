@@ -1,0 +1,6 @@
+.intro {
+  &-description {
+    font-family: $caption-font-family;
+    @include relative-font-size(1.2);
+  }
+}
