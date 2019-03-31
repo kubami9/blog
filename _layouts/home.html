@@ -8,14 +8,11 @@ layout: default
   {%- endif -%}
 
   <div class="intro">
-
-    <p class="intro-description">
-      <!-- TODO -->
-      {{ site.data.about.md }}
-    </p>
+    <!-- TODO -->
+      <h1>Some nice heading will go here</h1>
+      {{ content }}
   </div>
 
-  {{ content }}
 
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "2019" }}</h2>

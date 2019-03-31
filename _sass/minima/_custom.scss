@@ -1,6 +1,5 @@
 .intro {
-  &-description {
-    font-family: $caption-font-family;
-    @include relative-font-size(1.2);
-  }
+  font-family: $caption-font-family;
+  @include relative-font-size(1.2);
+  text-align: center;
 }
