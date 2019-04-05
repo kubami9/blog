@@ -28,9 +28,11 @@ body {
   flex-direction: column;
   ::selection {
     background: #ff8a80 ; /* WebKit/Blink Browsers */
+    color: $background-color;
   }
   ::-moz-selection {
     background: #ff8a80 ; /* Gecko Browsers */
+    color: $background-color;
   }
 }
 
