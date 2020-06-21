@@ -1,3 +1,3 @@
 ## My little place in the internet
 
-https://kubami9.github.io/blog/
+http://www.blog.kubacoding.eu
